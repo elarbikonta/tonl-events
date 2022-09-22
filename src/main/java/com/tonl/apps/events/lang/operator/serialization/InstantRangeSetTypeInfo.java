@@ -14,9 +14,7 @@ public class InstantRangeSetTypeInfo extends TypeInfoFactory<RangeSet<Instant>> 
 
     @Override
     public TypeInformation<RangeSet<Instant>> createTypeInfo(Type t, Map<String, TypeInformation<?>> genericParameters) {
-
         TypeInformation<RangeSet<Instant>> info = TypeInformation.of(new TypeHint<RangeSet<Instant>>() {});
-
         return info;
     }
 

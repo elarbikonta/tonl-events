@@ -14,9 +14,9 @@ import java.time.Instant;
 public class OutputRangeSet implements Serializable {
 
     private String key;
-   @TypeInfo(InstantRangeSetTypeInfo.class)
+
+    @TypeInfo(InstantRangeSetTypeInfo.class)
     private RangeSet<Instant> rangeSet;
 
-    //private Instant eventTime;
 
 }
