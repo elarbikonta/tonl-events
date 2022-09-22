@@ -1,0 +1,18 @@
+[
+  {
+    "id": "geo_1",
+    "gpsDate": "2022-09-22T01:00:00Z",
+    "event": "ENTER_ZONE",
+    "driver": {
+      "uid": "123"
+    }
+  },
+  {
+    "id": "geo_2",
+    "gpsDate": "2022-09-22T02:00:00Z",
+    "event": "EXIT_ZONE",
+    "driver": {
+      "uid": "123"
+    }
+  }
+]
